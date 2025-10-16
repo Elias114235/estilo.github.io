@@ -1,0 +1,260 @@
+body{
+  background: linear-gradient(90deg, #232323, #585557);
+}
+
+.fila{
+    position: relative;
+    margin-top: 76px;
+    width: 850px;
+    margin-left: 200px;
+}
+
+.informacion{
+    position: relative;
+    width: 850px;
+    margin-left: 200px;
+}
+
+img{
+   width:200px ; 
+   height:200px ;
+   filter: drop-shadow(1px 1px 5px rgb(0,0,0));
+}
+
+.carrucel{
+    position: absolute;
+  margin-top: -520px;
+overflow: hidden;
+width: 600px;
+margin-left: 590px;
+}
+
+.anima{
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 250px;
+  justify-items: stretch;
+  animation: slide 9s linear infinite;
+}
+
+.anima img{
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+@keyframes slide{
+  to{
+    translate: calc(-4 * 250px);
+  }
+}
+
+.text-center{
+    display: flex;
+   margin-left: 100px;
+   margin-top: 80px;
+   gap: 90px;
+   filter: drop-shadow(1px 1px 5px rgb(0,0,0));
+}
+
+.caja-prim{
+   background: rgba(255, 255, 255, 0.2); /* Color base translúcido */
+  backdrop-filter: blur(10px);          /* Difumina el fondo detrás */  
+  border-radius: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  color: #000000;
+  display: inline-block; /* Se ajusta al contenido */
+  max-width: 100%;
+
+  margin-top: 200px;
+  margin-left: 500px;
+
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.caja-prim p{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.caja-prim-img img{
+    height:100px ;
+    width:100px ;
+    margin-top: 20px;
+    margin-left:20px ;
+    border-radius: 50%;
+}
+
+.caja-prim a{
+    color: rgb(255, 238, 0);
+    text-decoration: none;
+    margin-left: 40px;
+    margin-top: 97px;
+}
+
+.text-center img{
+      width:300px ; 
+   height:300px ;
+}
+
+.contactos{
+    margin-top: 100px;
+     background-color: rgb(106, 137, 133);
+}
+.texto{
+    color: aliceblue;
+}
+
+.texto a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+.logo1{
+position: absolute;
+display: flex;
+margin-left: 450px;
+margin-top: -200px;
+gap: 12px;
+}
+
+.logo1 a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.logo2{
+position: absolute;
+display: flex;
+margin-left: 450px;
+margin-top: -150px;
+gap: 12px;
+}
+
+.logo2 a{
+    text-decoration: none;
+   color: #FFFFFF;
+}
+
+.logo3{
+position: absolute;
+display: flex;
+margin-left: 450px;
+margin-top: -100px;
+gap: 12px;
+}
+
+.logo3 a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.logo4{
+position: absolute;
+display: flex;
+margin-left: 450px;
+margin-top: -50px;
+gap: 12px;
+}
+
+.logo4 a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.textprim{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 40px;
+}
+
+.text-center1{
+    border-radius: 60px;
+background: rgba(255, 255, 255, 0.2); 
+  backdrop-filter: blur(10px);            
+  border-radius: 80px;
+   box-shadow: 0 10px 20px rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.406);
+  padding: 2rem;
+  color: #ffffff; 
+}
+
+
+.text-center2{
+      border-radius: 60px;
+background: rgba(255, 255, 255, 0.2); 
+  backdrop-filter: blur(10px);            
+  border-radius: 80px;
+   box-shadow: 0 10px 20px rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.406);
+  padding: 2rem;
+  color: #ffffff;  
+
+      position: absolute;
+    margin-left: 500px;
+}
+
+.text-center3{
+    border-radius: 60px;
+background: rgba(255, 255, 255, 0.2); 
+  backdrop-filter: blur(10px);            
+  border-radius: 80px;
+   box-shadow: 0 10px 20px rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.406);
+  padding: 2rem;
+  color: #ffffff; 
+
+    position: absolute;
+    margin-left: 920px;
+}
+
+.container1{
+margin-left: 113px;
+margin-top: 8px;
+}
+
+.container2{
+    margin-left: 620px;
+    margin-top: -55px;
+}
+
+.container3{
+    margin-left: 1039px ;
+    margin-top:-55px ;
+}
+
+.button{
+    padding: 15px 30px;
+    font-size: 16px;
+    color: white;
+    background: linear-gradient(90deg, rgb(106, 137, 133), #9f9f9b);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(255, 0, 102, 0);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.button:hover{
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.553) ;
+    transform: translateY(-3px);
+}
+
+.button a{
+text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.text1{
+    position: relative;
+}
+
+.text2{
+    position: absolute;
+
+}
